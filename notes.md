@@ -1,20 +1,21 @@
 # Estudo de HTML:
 
 
-**Sumário**
-- Definição
-- Tags
+##### Sumário
+- [Definição](#definição)
+- [Tags](#tags)
 
 --------------------------------------------
 
-**Definição**<br>
+##### Definição
 _HTML_ é uma linguagem de marcação, e não de programação.
 
 --------------------------------------------
 
-**TAGS**
+##### TAGS
 
-- `<!DOCTYPE html>` visa garantir a compatibilidade com os navegadores modernos. Com isso está dizendo para o navegador que o código foi escrito em HTML5. É _case insensitive_ funcionando tanto `<!doctype html>` ou `<!DOCTYPE HTML>`, deve vir antes da tag `<html>`;
-- `<html>` deve ser sempre a primeira tag do seu código. Ela deve ser fechada com `</html>`. Ela envolve todo o código;
-- `<br>`: cria uma quebra de linha. O br vem de break.
+- `<!DOCTYPE html>`: visa garantir a compatibilidade com os navegadores modernos. Com isso está dizendo para o navegador que o código foi escrito em HTML5. É _case insensitive_ funcionando tanto `<!doctype html>` ou `<!DOCTYPE HTML>`, deve vir antes da tag `<html>`;
+- `<html>`: deve ser sempre a primeira tag do seu código. Ela deve ser fechada com `</html>`. Ela envolve todo o código;
+- `<head>`: define o cabeçalho. O conteúdo dentro das tags `<head>` e `</head>` não é visível no browser, mas contém instruções sobre seu conteúdo e comportamento, como folhas de estilo e scripts;
+- `<br>`: cria uma quebra de linha. O _br_ vem de break.
 
