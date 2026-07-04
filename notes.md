@@ -21,5 +21,6 @@ _HTML_ é uma linguagem de marcação, e não de programação.
 - `<title>`: define o título título da página, ou seja o texto que aparece na aba/janela do navegador. O conteúdo precisa estar entre `<title>` e `</title>`;
 - `<meta>`: define metadados, ou seja, informações sobre o documento HTML. Essas tags são inseridas dentro do elemento `<head>` e servem para especificar o conjunto de caracteres, autoria, configurações de visualização, entre outras informações; 
 - `<body>`: representa o conteúdo de um documento HTML, a tag fecha com `</body>`. É permitido apenas um `<body>` por documento.
+- `<h1>` até `<h6>`: define do cabeçalho 1 até o cabeçalho 6. Quanto maior o número menor o tamnho da fomnte do cabeçalho. É necessário fechar as tags, por exemplo `<h3>` `</h3>`.
 - `<p>`: define um parágrafo. O conteúdo precisa ser fechado pela tag `</p>`.
 - `<br>`: cria uma quebra de linha. O _br_ vem de break.
