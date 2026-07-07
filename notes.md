@@ -26,3 +26,5 @@ _HTML_ é uma linguagem de marcação, e não de programação.
 - `<br>`: cria uma quebra de linha. O _br_ vem de break.
 - `<hr>`: é usada para representar uma quebra temática entre parágrafos ou seções de uma página. O _\<hr>_ significa Horizontal Rule (Linha Horizontal). É indicado pensar nela como aquela linha ou espaçamento que encontra-se em livros quando o autor muda de assunto, muda o ponto de vista da história ou passa para um novo tópico dentro do mesmo capítulo. 
 Além disso é importante saber que ela é uma tag vazia (ou de fechamento automático), o que significa que ela não tem conteúdo de texto dentro dela e não precisa de uma tag de fechamento.
+- `<b>`: transforma o conteúdo em negrito. É preciso fechar com a tag `</b>`.
+- `<i>`: transforma o conteúdo em itálico. É preciso fechar com a tag `</i>`.
