@@ -28,3 +28,6 @@ _HTML_ é uma linguagem de marcação, e não de programação.
 Além disso é importante saber que ela é uma tag vazia (ou de fechamento automático), o que significa que ela não tem conteúdo de texto dentro dela e não precisa de uma tag de fechamento.
 - `<b>`: transforma o conteúdo em negrito. É preciso fechar com a tag `</b>`.
 - `<i>`: transforma o conteúdo em itálico. É preciso fechar com a tag `</i>`.
+- `<ol>`: usado para criar uma lista ordenada. É preciso fechar com a tag `</ol>`.
+- `<ul>`: usado para criar uma lista não ordenada. É preciso fechar com a tag `</ul>`.
+- `<li>`: para inserir elementos tanto listas ordenadas e não ordenadas. É preciso fechar com a tag `</li>`.
