@@ -31,3 +31,4 @@ Além disso é importante saber que ela é uma tag vazia (ou de fechamento autom
 - `<ol>`: usado para criar uma lista ordenada. É preciso fechar com a tag `</ol>`.
 - `<ul>`: usado para criar uma lista não ordenada. É preciso fechar com a tag `</ul>`.
 - `<li>`: para inserir elementos tanto listas ordenadas e não ordenadas. É preciso fechar com a tag `</li>`.
+- `<footer>`: significa Rodapé. Ela é uma tag semântica, introduzida no HTML5, usada para definir a seção de encerramento de uma página web ou de uma seção específica dentro do site. .É preciso fechar com a tag `</footer>`. Ela fica dentro do _body_.
