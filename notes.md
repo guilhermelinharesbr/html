@@ -32,3 +32,15 @@ Além disso é importante saber que ela é uma tag vazia (ou de fechamento autom
 - `<ul>`: usado para criar uma lista não ordenada. É preciso fechar com a tag `</ul>`.
 - `<li>`: para inserir elementos tanto listas ordenadas e não ordenadas. É preciso fechar com a tag `</li>`.
 - `<footer>`: significa Rodapé. Ela é uma tag semântica, introduzida no HTML5, usada para definir a seção de encerramento de uma página web ou de uma seção específica dentro do site. .É preciso fechar com a tag `</footer>`. Ela fica dentro do _body_.
+- `<q>`: significa _quote_(citação) e serve para indicar citações curtas em linha (ou seja, citações que fazem parte do corpo de um parágrafo e não quebram a linha do texto). É preciso fechar com a tag `</q>`. Ela fica dentro do _body_.
+Ex:  
+```html
+<body> 
+<p>Meu avô sempre dizia: <q>Quem madruga, Deus ajuda</q>, mas eu prefiro programar à noite.</p> 
+</body>
+```
+
+Saída: 
+Meu avô sempre dizia: “Quem madruga, Deus ajuda”, mas eu prefiro programar à noite.
+
+Obs: Note que o navegador inseriu as aspas estilizadas por conta própria. Se você mudar o idioma da sua página para inglês (<html lang="en">), o navegador mudará automaticamente o estilo das aspas para o padrão americano.
