@@ -4,13 +4,15 @@
 ##### Sumário
 - [Definição](#definição)
 - [Tags](#tags)
+- [Atributos](#atributos)
+- [width](#width)
 
---------------------------------------------
+---
 
 ##### Definição
 _HTML_ é uma linguagem de marcação, e não de programação.
 
---------------------------------------------
+---
 
 ##### TAGS
 
@@ -44,3 +46,39 @@ Saída:
 Meu avô sempre dizia: “Quem madruga, Deus ajuda”, mas eu prefiro programar à noite.
 
 Obs: Note que o navegador inseriu as aspas estilizadas por conta própria. Se você mudar o idioma da sua página para inglês (<html lang="en">), o navegador mudará automaticamente o estilo das aspas para o padrão americano.
+
+---
+
+##### Atributos
+
+Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Igualmente, os atributos são utilizados para atribuir uma classe ou id a um elemento.
+
+##### width
+
+`width=”…”` – Define uma largura para o elemento. Ele é usado diretamente dentro de tags HTML que lidam com dimensões visíveis, sendo mais comum em elementos como imagens, vídeos, telas de desenho e tabelas.
+
+Duas formas de definir o width
+No HTML, você pode definir a largura usando duas unidades principais:
+
+Em _Pixels_ (px): Define um tamanho fixo. (No HTML5 puro, basta colocar o número, o navegador já entende que são pixels).
+
+Em _Porcentagem_ (%): Define um tamanho relativo. O elemento vai se ajustar à largura da tela ou do bloco onde ele está dentro.
+
+Exemplos Práticos
+1. Definindo tamanho fixo em uma imagem (Pixels)
+Se você quer que uma imagem tenha exatamente 300 pixels de largura:
+
+```html
+<img src="foto-computador.jpg" alt="Um notebook sobre a mesa" width="300">
+```
+Obs: Quando define-se apenas o width, o navegador ajusta a altura (height) automaticamente de forma proporcional para a imagem não ficar distorcida (esticada ou achatada).
+
+2. Definindo tamanho responsivo (Porcentagem)
+Se você quer que a imagem mude de tamanho de acordo com a tela do usuário (perfeito para celulares), use porcentagem:
+
+```html
+<!-- A imagem vai ocupar exatamente a metade da largura da tela do usuário -->
+<img src="banner.jpg" alt="Banner promocional" width="50%">
+```
+
+---
