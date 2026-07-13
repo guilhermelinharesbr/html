@@ -53,9 +53,11 @@ Obs: Note que o navegador inseriu as aspas estilizadas por conta própria. Se vo
 
 Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Igualmente, os atributos são utilizados para atribuir uma classe ou id a um elemento.
 
+---
+
 ##### width
 
-`width=”…”` – Define uma largura para o elemento. Ele é usado diretamente dentro de tags HTML que lidam com dimensões visíveis, sendo mais comum em elementos como imagens, vídeos, telas de desenho e tabelas.
+`width="…"`: Define uma largura para o elemento. Ele é usado diretamente dentro de tags HTML que lidam com dimensões visíveis, sendo mais comum em elementos como imagens, vídeos, telas de desenho e tabelas.
 
 Duas formas de definir o width
 No HTML, você pode definir a largura usando duas unidades principais:
@@ -80,5 +82,21 @@ Se você quer que a imagem mude de tamanho de acordo com a tela do usuário (per
 <!-- A imagem vai ocupar exatamente a metade da largura da tela do usuário -->
 <img src="banner.jpg" alt="Banner promocional" width="50%">
 ```
+
+---
+
+##### height
+
+`height="…"`: Define a altura vertical de um elemento na tela.
+
+Assim como a largura, ele é aplicado diretamente dentro da tag de abertura de elementos visuais, sendo indispensável para imagens, vídeos e iframes.
+
+Ex:  
+```html
+<img src="https://url.com" alt="Foto de perfil" height="200">
+```
+
+Obs: Se definir apenas o height="200" (e não colocar o width), o navegador vai calcular a largura automaticamente para que a imagem não fique distorcida. O mesmo acontece se você definir apenas o width.
+Se colocar valores fixos para os dois (ex: width="500" height="200"), corre o grande risco de a sua imagem ficar "achatada" ou "esticada".
 
 ---
