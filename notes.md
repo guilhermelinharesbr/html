@@ -6,6 +6,8 @@
 - [Tags](#tags)
 - [Atributos](#atributos)
 - [width](#width)
+- [height](#height)
+- [title](#title)
 
 ---
 
@@ -98,5 +100,25 @@ Ex:
 
 Obs: Se definir apenas o height="200" (e não colocar o width), o navegador vai calcular a largura automaticamente para que a imagem não fique distorcida. O mesmo acontece se você definir apenas o width.
 Se colocar valores fixos para os dois (ex: width="500" height="200"), corre o grande risco de a sua imagem ficar "achatada" ou "esticada".
+
+---
+
+##### title
+
+`title="…"`: Adiciona informações extras (uma dica de tela ou tooltip) a qualquer elemento do HTML.
+
+Ex:  
+```html
+<p>
+  Acesse o meu perfil no GitHub.
+  <a href="https://github.com/guilhermelinharesbr" title="Ir para o perfil oficial do Guilherme">GitHub</a>.
+</p>
+```
+
+Como fica em tela:
+
+![Atributo Title exemplo](./images/atributo-title_exemplo.png)
+
+É possível notar acima que o atirbuto _title_ foi usado para colocar um título/dica no link de nome GitHub, para quando o usuário passar o mouse sobre o link mostrar a frase "Ir para o perfil oficial do Guilherme".
 
 ---
