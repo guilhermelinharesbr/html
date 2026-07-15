@@ -8,6 +8,7 @@
 - [width](#width)
 - [height](#height)
 - [title](#title)
+- [hidden](#hidden)
 
 ---
 
@@ -120,5 +121,27 @@ Como fica em tela:
 ![Atributo Title exemplo](./images/atributo-title_exemplo.png)
 
 É possível notar acima que o atirbuto _title_ foi usado para colocar um título/dica no link de nome GitHub, para quando o usuário passar o mouse sobre o link mostrar a frase "Ir para o perfil oficial do Guilherme".
+
+---
+
+##### hidden
+
+É um atributo global do HTML5. A função dele é esconder completamente um elemento da tela do usuário.
+
+Quando adiciona-se o atributo hidden a qualquer tag HTML, o navegador a renderiza com o equivalente visual a display: none do CSS. Isso significa que o elemento não apenas fica invisível, mas também não ocupa nenhum espaço na página (os outros elementos ao redor se movem para preencher o vazio, como se o elemento escondido nunca tivesse existido ali).
+
+```html
+<p>Este texto está visível para todo mundo.</p>
+
+<p hidden>Este texto está escondido e ninguém consegue ver na tela!</p>
+
+<p>Este texto também está visível e encostou no primeiro parágrafo.</p>
+```
+
+Como fica em tela:
+
+![Atributo Hidden exemplo](./images/atributo-hidden-exemplo.png)
+
+É possível notar acima que o atirbuto _hidden_ foi usado para esconder o segundo parágrafo.
 
 ---
