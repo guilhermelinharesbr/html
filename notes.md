@@ -9,6 +9,7 @@
 - [height](#height)
 - [title](#title)
 - [hidden](#hidden)
+- [lang](#lang)
 
 ---
 
@@ -143,5 +144,67 @@ Como fica em tela:
 ![Atributo Hidden exemplo](./images/atributo-hidden-exemplo.png)
 
 É possível notar acima que o atirbuto _hidden_ foi usado para esconder o segundo parágrafo.
+
+---
+
+##### lang
+
+O atributo **lang** (que vem de language, ou "idioma" em inglês) é um dos atributos mais importantes do HTML. Ele serve para declarar explicitamente o idioma principal do documento ou de um trecho específico de texto na página.
+
+Embora ele não mude em nada o visual do seu site, ele é considerado uma prática obrigatória para a acessibilidade, SEO e boa renderização da sua página.
+
+Geralmente, o atributo lang é declarado logo no início do documento, diretamente na tag de abertura `<html>`. 
+
+Ex:  
+```html
+<!DOCTYPE html>
+<!-- Aqui você avisa ao navegador: "este site está em português do Brasil" -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página de Estudos</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Estou aprendendo HTML.</p>
+</body>
+</html>
+```
+
+O valor do atributo _lang_ segue um padrão internacional. Ele costuma usar duas letras minúsculas para o idioma e, opcionalmente, duas letras maiúsculas para a região/país:
+
+- **pt-BR**: Português do Brasil
+- **pt-PT**: Português de Portugal
+- **en**: Inglês (geral)
+- **en-US**: Inglês dos Estados Unidos
+- **es**: Espanhol
+
+Existem pelo menos 4 motivos porque o atritubo lang é importante:
+
+1. **Acessibilidade** (Leitores de Tela)
+Pessoas com deficiência visual utilizam softwares de leitura de tela para navegar na internet. Se você não definir a tag lang, o leitor de tela pode tentar ler o seu texto em português usando a pronúncia e o sotaque do inglês (ou do idioma padrão do computador do usuário). O resultado fica incompreensível. Com lang="pt-BR", o leitor usa a voz e a fonética brasileira corretas.  
+
+2. **Tradução Automática**
+Ao entrar em um site estrangeiro, o Google Chrome abre um balãozinho perguntando: "Deseja traduzir esta página?"? O navegador só sabe fazer isso de forma rápida e precisa porque ele lê o atributo lang daquele site (que pode estar como lang="ja" para japonês, por exemplo).  
+
+3. **Corretores Ortográficos e Motores de Busca (SEO)**
+Mecanismos de busca como o Google usam o lang para entender o público-alvo da sua página e exibi-la nos resultados de pesquisa das regiões corretas. Além disso, se o usuário tiver campos de texto no seu site, o corretor ortográfico do navegador usará o idioma definido no lang para sugerir correções.
+
+4. **Tipografia e Hifenização**
+Alguns navegadores aplicam regras de hifenização automática de palavras ou até usam aspas diferentes (como vimos na tag `<q>`) dependendo do idioma declarado.
+
+Ex2:  
+Se o site é em português, mas em algum momento é preciso citar uma frase inteira em outro idioma, pode-se aplicar o lang em tags menores, como `<p>`, `<span>` ou `<q>`:
+
+```html
+<html lang="pt-BR">
+<body>
+    <p>O conceito de design focado no usuário é muito resumido pelo termo em inglês: 
+       <!-- Aplicando o lang apenas para essa expressão -->
+       <span lang="en">"user-centered design"</span>.
+    </p>
+</body>
+</html>
+```
 
 ---
